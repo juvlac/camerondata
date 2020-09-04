@@ -1,0 +1,15 @@
+## National Longitudinal Survey
+## Instrumental variables example
+
+library(haven)
+
+
+# Source: dat and dct files from http://cameron.econ.ucdavis.edu/mmabook/mmadata.html
+# Read locally from Stata
+
+  nls66 <- read_dta("C:\\1-JEVL\\1-DatSci\\5-RProJects\\Camerondata_packdev\\nls66.dta")
+
+
+  usethis::use_data(nls66, overwrite = TRUE)
+
+
