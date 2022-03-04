@@ -2,6 +2,7 @@
 ## Instrumental variables example
 
 library(haven)
+library(dplyr)
 
 
 # Source: dat and dct files from http://cameron.econ.ucdavis.edu/mmabook/mmadata.html
@@ -13,3 +14,9 @@ library(haven)
   usethis::use_data(nls66, overwrite = TRUE)
 
 
+#
+
+  #mag_14, 58 obs with 0.710??
+
+
+  #bdate Stata formatted
