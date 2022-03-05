@@ -1,0 +1,53 @@
+#' Training and earnings
+#'
+#' Data from the National Supported Work (NSW) demonstration project
+#' used by Lalonde (1986), and Dehejia and Wahba (1999,2002).
+#' This sample has 185 observations in the treatment group and 2490 in the
+#' control group. The treatment sample consists of males who received
+#' training during 1976–1977. THe control group consists of male
+#' household heads under the age of 55 who are not retired,
+#' drawn from the PSID (Cameron and Trivedi, 2005).
+#'
+#'
+#'
+#'
+#' @usage data(nswproject)
+#'
+#' @format A data frame with 2675 observations and 18 variables:
+#' \describe{
+#'   \item{\strong{treat}}{= 1 if individual is in treatment group, = 0 if in control group}
+#'   \item{\strong{age}}{age in years}
+#'   \item{\strong{educ}}{education in years}
+#'   \item{\strong{black}}{= 1 if black}
+#'   \item{\strong{hisp}}{= 1 if hispanic}
+#'   \item{\strong{marr}}{= 1 if married}
+#'   \item{\strong{re74}}{real annual earnings in 1974 (pre-treatment), in 1982 usd}
+#'   \item{\strong{re75}}{real annual earnings in 1975 (pre-treatment), in 1982 usd}
+#'   \item{\strong{re78}}{real annual earnings in 1978 (post-treatment), in 1982 usd}
+#'   \item{\strong{u74}}{= 1 if unemployed in 1974}
+#'   \item{\strong{u75}}{= 1 if unemployed in 1975}
+#'   \item{\strong{agesq}}{age squared}
+#'   \item{\strong{educsq}}{educ squared}
+#'   \item{\strong{nodegree}}{= 1 if years of education < 12}
+#'   \item{\strong{re74sq}}{re74 squared}
+#'   \item{\strong{re75sq}}{re75 squared}
+#'   \item{\strong{u74black}}{interaction term u74 x black}
+#'   \item{\strong{u74hisp}}{interaction term u74 x hisp}
+#' }
+#' @section Section in Text:
+#' 25.8 Treatment Evaluation Example: The Effect of Training on Earnings, pp. 889-95
+#' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
+#' @references
+#' Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
+#' Applications," Cambridge University Press, New York.
+#'
+#' Dehejia R. and Wahba S. (1999), "Causal Effects in Nonexperimental
+#' Studies: Reevaluating the Evaluation of Training Programs,"
+#' JASA, 1053-1062.
+#'
+#' Dehejia R. and Wahba S. (2002), "Propensity-score Matching Methods for
+#' Nonexperimental Causal Studies", ReStat, 151-161
+#'
+#' Lalonde, R. (1986), "Evaluating the Econometric Evaluations of
+#' Training Programs with Experimental Data," AER, 604-620.
+"nswproject"

@@ -1,0 +1,33 @@
+#' Hourly wages
+#'
+#' Data from the Michigan Panel Survey of Income Dynamics, Individual Level Final
+#' Release 1993. Sample of 4856 women, extracted by Cameron and Trivedi (2005).
+#'
+#'
+#' @usage data(mpanel)
+#'
+#' @format A data frame with 4856 observations and 9 variables:
+#' \describe{
+#'   \item{\strong{intnum}}{interview number 1968}
+#'   \item{\strong{persnum}}{person number}
+#'   \item{\strong{age}}{age of individual in 1993}
+#'   \item{\strong{educatn}}{highest grade/year of school completed 1993}
+#'   \item{\strong{earnings}}{total labor income of individual received in 1992, dollars}
+#'   \item{\strong{hours}}{total annual work hours in 1992}
+#'   \item{\strong{sex}}{sex of individual,= 2 if female}
+#'   \item{\strong{kids}}{total number of children born to this individual}
+#'   \item{\strong{married}}{last known marital status: 1 = married,
+#'   2 = never married, 3 = widowed, 4 = divorced, 5 = separated,
+#'   8 = NA, 9 = no histories 85-93 }
+#' }
+#' @section Section in Text:
+#' 9.2 Nonparametric density estimation and regression, pp. 295-7, 300
+#' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
+#' @references
+#' Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
+#' Applications," Cambridge University Press, New York.
+#'
+#' Michigan Panel Study of Income Dynamics (PSID),
+#' \url{https://psidonline.isr.umich.edu/}
+"mpanel"
+
