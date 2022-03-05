@@ -1,6 +1,6 @@
 #' Unemployment duration
 #'
-#' Data from the January Current Population Survey’s Displaced
+#' Data from the January Current Population Survey's Displaced
 #' Workers Supplements (DWS) for the years 1986, 1988, 1990, and 1992.
 #' Only individuals between 20 and 61 years old who were displaced from
 #' nonagricultural jobs due to plant closure, slack work, or abolished positions

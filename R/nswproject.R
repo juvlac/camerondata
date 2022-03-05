@@ -1,10 +1,10 @@
 #' Training and earnings
 #'
 #' Data from the National Supported Work (NSW) demonstration project
-#' used by Lalonde (1986), and Dehejia and Wahba (1999,2002).
+#' used by Lalonde (1986), and Dehejia and Wahba (1999, 2002).
 #' This sample has 185 observations in the treatment group and 2490 in the
 #' control group. The treatment sample consists of males who received
-#' training during 1976–1977. THe control group consists of male
+#' training during 1976-1977. THe control group consists of male
 #' household heads under the age of 55 who are not retired,
 #' drawn from the PSID (Cameron and Trivedi, 2005).
 #'

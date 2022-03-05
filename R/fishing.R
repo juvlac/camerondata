@@ -41,7 +41,7 @@
 #' Herriges, J. and Kling, C. (1999), "Nonlinear Income Effects
 #' in Random Utility Models," Review of Economics and Statistics, 81, 62-72.
 #'
-#' Thomson, C., and Crooke, S. (1991), “Results of the Southern
-#' California Sportfish Economic Survey,” NOAA Technical Memorandum,
+#' Thomson, C., and Crooke, S. (1991), "Results of the Southern
+#' California Sportfish Economic Survey," NOAA Technical Memorandum,
 #' National Marine Fisheries Service, Southwest Fisheries Science Center.
 "fishing"

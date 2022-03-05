@@ -28,6 +28,6 @@
 #' Journal of Econometrics, 28, 5-28.
 #'
 #' Jaggia, S. (1991), "Specification Tests Based on the Heterogeneous Generalized
-#' Gamma Model of Duration: With an Application to Kennan’s Strike Data,"
-#' Journal of Applied Econometrics, 6, 169–180.
+#' Gamma Model of Duration: With an Application to Kennan's Strike Data,"
+#' Journal of Applied Econometrics, 6, 169--180.
 "strikes"

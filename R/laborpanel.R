@@ -17,7 +17,7 @@
 #'   \item{\strong{disab}}{= 1 if bad health}
 #'   \item{\strong{id}}{identification code}
 #'   \item{\strong{year}}{interview year}
-#'   ...
+#'
 #' }
 #' @section Section in Text:
 #' 21.3 Linear Panel Example: Hours and Wages, pp. 708-15
