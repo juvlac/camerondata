@@ -11,5 +11,10 @@ library(haven)
 
   laborpanelprec <- read_dta("C:\\1-JEVL\\1-DatSci\\5-RProJects\\Camerondata_packdev\\momprecise.dta")
 
+  for (i in 1:ncol(laborpanelprec)) {
+    attr(laborpanelprec[[i]], "format.stata") <- NULL
+
+  }
+
 
   usethis::use_data(laborpanelprec, overwrite = TRUE)

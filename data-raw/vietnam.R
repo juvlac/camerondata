@@ -16,6 +16,19 @@ library(magrittr )
     rename(educ = comped98, lnhhexp = lhhexp1,
            lnexp12m =lhhex12m)
 
+  # Remove stata labels
+
+  for (i in 1:ncol(vietnam_hh)) {
+    attr(vietnam_hh[[i]], "label") <- NULL
+    attr(vietnam_hh[[i]], "format.stata") <- NULL
+  }
+
+  attr(vietnam_hh$farm, "labels") <- NULL
+  attr(vietnam_hh$educ, "labels") <- NULL
+  # remove class haven_labelled, vctrs_vctr
+  class(vietnam_hh$farm) <- "double"
+  class(vietnam_hh$educ) <- "double"
+
 
   usethis::use_data(vietnam_hh, overwrite = TRUE)
 
@@ -32,6 +45,15 @@ library(magrittr )
   vietnam_ind <- vietnam_ind %>%
     rename(educ = comped98, illness = illdum, injury = injdum,
            insurance = hlthins, lnhhexp =lnhhinc)
+
+  # Remove stata labels
+
+  for (i in 1:ncol(vietnam_ind)) {
+    attr(vietnam_ind[[i]], "label") <- NULL
+    attr(vietnam_ind[[i]], "format.stata") <- NULL
+
+  }
+
 
 
   usethis::use_data(vietnam_ind, overwrite = TRUE)

@@ -22,5 +22,14 @@ library(haven)
     mutate(u74 = if_else(re74 == 0, 1, 0),
            u75 = if_else(re75 == 0, 1, 0))
 
+  # Remove stata labels
+  for (i in 1:ncol(nswproject)) {
+    attr(nswproject[[i]], "format.stata") <- NULL
+  }
+
+
+
+
+
 
   usethis::use_data(nswproject, overwrite = TRUE)

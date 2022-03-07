@@ -17,5 +17,9 @@ library(readr)
                                married = c(25,25)))
 
 
+  attr(mpanel, "spec") <- NULL
+  attr(mpanel, "problems") <- NULL
+
+
   usethis::use_data(mpanel, overwrite = TRUE)
 

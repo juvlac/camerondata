@@ -56,7 +56,6 @@
 #'   \item{\strong{wscen}}{= 1 if residence in West South Central}
 #'   \item{\strong{mountain}}{= 1 if residence in Mountain region}
 #'   \item{\strong{pacific}}{= 1 if residence in Pacific region}
-#'   ...
 #' }
 #' @section Section in Text:
 #' 17.11 Duration Example: Unemployment Duration, pp. 603-8, 632-6, 658-62

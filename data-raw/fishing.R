@@ -10,6 +10,12 @@ library(dplyr)
 
   fishing <- read_dta("C:\\1-JEVL\\1-DatSci\\5-RProJects\\Camerondata_packdev\\nldata.dta")
 
+  # Remove stata labels
+
+  for (i in 1:ncol(fishing)) {
+    attr(fishing[[i]], "format.stata") <- NULL
+
+  }
 
 # Convert to integer
 

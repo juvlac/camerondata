@@ -10,11 +10,11 @@
 #'
 #' @format A data frame with 1182 observations and 16 variables:
 #' \describe{
-#'   \item{\strong{mode}}{fishing mode choice, = 1 if beach,
-#'   = 2 if pier, = 3 if private boat, = 4 if charter}
+#'   \item{\strong{mode}}{fishing mode choice, = 1 beach,
+#'   = 2 pier, = 3 private boat, = 4 charter}
 #'   \item{\strong{price}}{price for chosen alternative, usd}
 #'   \item{\strong{crate}}{catch rate for chosen alternative,
-#'   summ of per-hour catch rates of targeted species.}
+#'   sum of per-hour catch rates of targeted species.}
 #'   \item{\strong{dbeach}}{= 1 if beach mode chosen, = 0 otherwise}
 #'   \item{\strong{dpier}}{= 1 if pier mode chosen, = 0 otherwise}
 #'   \item{\strong{dprivate}}{= 1 if private boat mode chosen, = 0 otherwise}
@@ -28,10 +28,10 @@
 #'   \item{\strong{qprivate}}{catch rate for private boat mode}
 #'   \item{\strong{qcharter}}{catch rate for charter boat mode}
 #'   \item{\strong{income}}{monthly income, usd}
-#'   ...
 #' }
 #' @section Section in Text:
 #' 14.2 Binary Outcome Example: Fishing Mode Choice, pp. 464-6, 486
+#'
 #' 15.2 Choice of Fishing Mode, pp. 491-5
 #' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 #' @references

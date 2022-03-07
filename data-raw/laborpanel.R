@@ -10,6 +10,10 @@ library(haven)
 
   laborpanel <- read_dta("C:\\1-JEVL\\1-DatSci\\5-RProJects\\Camerondata_packdev\\mom.dta")
 
+  for (i in 1:ncol(laborpanel)) {
+    attr(laborpanel[[i]], "format.stata") <- NULL
+
+  }
 
   usethis::use_data(laborpanel, overwrite = TRUE)
 
