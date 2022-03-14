@@ -50,4 +50,7 @@
 #'
 #' Lalonde, R. (1986), "Evaluating the Econometric Evaluations of
 #' Training Programs with Experimental Data," AER, 604-620.
+#' @examples
+#' dplyr::glimpse(nswproject)
+#' head(nswproject)
 "nswproject"

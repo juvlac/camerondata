@@ -47,6 +47,10 @@ drawn from the PSID (Cameron and Trivedi, 2005).
 25.8 Treatment Evaluation Example: The Effect of Training on Earnings, pp. 889-95
 }
 
+\examples{
+dplyr::glimpse(nswproject)
+head(nswproject)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.
