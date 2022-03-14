@@ -72,6 +72,10 @@ Cameron and Trivedi (2005).
 17.11 Duration Example: Unemployment Duration, pp. 603-8, 632-6, 658-62
 }
 
+\examples{
+dplyr::glimpse(jobless)
+head(jobless)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

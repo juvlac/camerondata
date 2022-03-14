@@ -9,7 +9,7 @@ library(readr)
 # Info on column widths (in characters) available on
 # http://cameron.econ.ucdavis.edu/mmabook/mma09p1np.do
 
-  psidf3050 <- read_fwf("http://cameron.econ.ucdavis.edu/mmabook/psidf3050.dat",
+  incpanel <- read_fwf("http://cameron.econ.ucdavis.edu/mmabook/psidf3050.dat",
                       fwf_cols(intnum = c(1,4), persnum = c(5,7),
                                age = c(8,9), educatn = c(10,11),
                                earnings = c(12,17), hours = c(18,21),
@@ -17,5 +17,9 @@ library(readr)
                                married = c(25,25)))
 
 
-  usethis::use_data(psidf3050, overwrite = TRUE)
+  attr(incpanel, "spec") <- NULL
+  attr(incpanel, "problems") <- NULL
+
+
+  usethis::use_data(incpanel, overwrite = TRUE)
 

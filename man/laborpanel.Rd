@@ -33,6 +33,10 @@ collected from the Panel Study of Income Dynamics.
 21.3 Linear Panel Example: Hours and Wages, pp. 708-15
 }
 
+\examples{
+dplyr::glimpse(laborpanel)
+head(laborpanel)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

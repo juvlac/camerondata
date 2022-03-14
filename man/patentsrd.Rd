@@ -36,6 +36,10 @@ Griliches, and Hausman (1986).
 23.3 Nonlinear Panel Example: Patents and R&D, pp. 792-5
 }
 
+\examples{
+dplyr::glimpse(patentsrd)
+head(patentsrd)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

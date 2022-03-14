@@ -11,7 +11,7 @@ A data frame with 5999 observations and 9 variables:
 \item{\strong{age}}{age of household head}
 \item{\strong{educyr98}}{schooling year of household head}
 \item{\strong{farm}}{type of household, = 1 if farm }
-\item{\strong{urban98}}{= 1 if urban household, = 0 if rural }
+\item{\strong{urban98}}{= 1 if urban area, = 0 if rural area}
 \item{\strong{hhsize}}{household size}
 \item{\strong{lhhexp1}}{household total expenditure, ln}
 \item{\strong{lhhex12m}}{household medical expenditure, ln}
@@ -25,8 +25,8 @@ A data frame with 5999 observations and 9 variables:
 data(vietnamlss)
 }
 \description{
-Data from the World Bank’s 1997 Vietnam Living Standards Survey at the
-household level.
+Data from the World Bank's 1997 Vietnam Living Standards Survey 1997-98
+at the household level.
 Cameron and Trivedi (2005)
 }
 \section{Section in Text}{
@@ -34,4 +34,8 @@ Cameron and Trivedi (2005)
 4.6.4 Quantile Regression Example, pp. 88-90
 }
 
+\examples{
+dplyr::glimpse(vietnamlss)
+head(vietnamlss)
+}
 \keyword{datasets}

@@ -4,7 +4,7 @@
 #' Release 1993. Sample of 4856 women, extracted by Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(mpanel)
+#' @usage data(incpanel)
 #'
 #' @format A data frame with 4856 observations and 9 variables:
 #' \describe{
@@ -21,7 +21,8 @@
 #'   8 = NA, 9 = no histories 85-93 }
 #' }
 #' @section Section in Text:
-#' 9.2 Nonparametric density estimation and regression, pp. 295-7, 300
+#' 9.2.1 Nonparametric density estimation, pp. 295
+#' 9.2.2 Nonparametric Regression, pp. 297
 #' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 #' @references
 #' Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
@@ -29,5 +30,8 @@
 #'
 #' Michigan Panel Study of Income Dynamics (PSID),
 #' \url{https://psidonline.isr.umich.edu/}
-"mpanel"
+#' @examples
+#' dplyr::glimpse(incpanel)
+#' head(incpanel)
+"incpanel"
 

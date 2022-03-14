@@ -27,4 +27,7 @@
 #'
 #' World Bank Living Standards Survey 1997-1998 Vietnam.
 #' \url{https://microdata.worldbank.org/index.php/catalog/2694}
+#' @examples
+#' dplyr::glimpse(vietnam_hh)
+#' head(vietnam_hh)
 "vietnam_hh"

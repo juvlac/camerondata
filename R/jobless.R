@@ -66,4 +66,7 @@
 #'
 #' McCall, B. (1996), Unemployment Insurance Rules, Joblessness,
 #' and Part-time Work," Econometrica, 64, 647-682.
+#' @examples
+#' dplyr::glimpse(jobless)
+#' head(jobless)
 "jobless"

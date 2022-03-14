@@ -3,7 +3,7 @@
 \docType{data}
 \name{laborpanelprec}
 \alias{laborpanelprec}
-\title{Hours worked and wages (with more precision)}
+\title{Hours worked and wages (more precision)}
 \format{
 A data frame with 5320 observations and 8 variables:
 \describe{
@@ -34,6 +34,10 @@ JBES website with two decimal places (Cameron and Trivedi, 2005).
 22.3 Panel GMM Example: Hours and Wages, pp. 754-6
 }
 
+\examples{
+dplyr::glimpse(laborpanelprec)
+head(laborpanelprec)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

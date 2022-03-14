@@ -36,6 +36,10 @@ at the individual level. Sample extract by Cameron and Trivedi (2005).
 Section
 }
 
+\examples{
+dplyr::glimpse(vietnam_ind)
+head(vietnam_ind)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

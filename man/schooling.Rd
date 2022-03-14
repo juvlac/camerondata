@@ -97,6 +97,10 @@ Cameron and Trivedi (2005)
 4.9.6 Instrumental Variables Application, pp. 110-2
 }
 
+\examples{
+dplyr::glimpse(schooling)
+head(schooling)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

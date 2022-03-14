@@ -1,5 +1,5 @@
 Package: camerondata
-Title: Datasets from Cameron and Trivedi "Microeconometrics: Methods and Applications"
+Title: Datasets from "Microeconometrics: Methods and Applications" by Cameron and Trivedi
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Juliana",
@@ -10,9 +10,11 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
+Depends: 
+    R (>= 2.10)
+Suggests:
+    dplyr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Depends: 
-    R (>= 2.10)

@@ -22,4 +22,7 @@
 #' @section Section in Text:
 #' 4.6.4 Quantile Regression Example, pp. 88-90
 #' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
+#' @examples
+#' dplyr::glimpse(vietnamlss)
+#' head(vietnamlss)
 "vietnamlss"

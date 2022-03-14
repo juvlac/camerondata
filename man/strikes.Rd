@@ -31,6 +31,10 @@ Cameron and Trivedi (2005).
 17.2 Duration Models, pp. 574-5, 582
 }
 
+\examples{
+dplyr::glimpse(strikes)
+head(strikes)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

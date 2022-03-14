@@ -45,6 +45,10 @@ Cameron and Trivedi (2005).
 15.2 Choice of Fishing Mode, pp. 491-5
 }
 
+\examples{
+dplyr::glimpse(fishing)
+head(fishing)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.

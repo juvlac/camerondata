@@ -33,4 +33,7 @@
 #' Hall, B., Griliches, Z. and Hausman J. (1986), "Patents and R and D:
 #' Is There a Lag?," International Economic Review, 27,
 #' issue 2, p. 265-83.
+#' @examples
+#' dplyr::glimpse(patentsrd)
+#' head(patentsrd)
 "patentsrd"

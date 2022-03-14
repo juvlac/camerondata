@@ -102,4 +102,7 @@
 #'
 #'
 #' \url{https://www.nlsinfo.org/content/cohorts/older-and-young-men}
+#' @examples
+#' dplyr::glimpse(schooling)
+#' head(schooling)
 "schooling"

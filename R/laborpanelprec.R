@@ -1,4 +1,4 @@
-#' Hours worked and wages (with more precision)
+#' Hours worked and wages (more precision)
 #'
 #' Data on 532 males over 10 years (1979-1988) from Ziliak (1997),
 #' with more significant digits (seven decimals) than the data originally posted on
@@ -34,4 +34,7 @@
 #'
 #' Panel Study of Income Dynamics (PSID),
 #' \url{https://psidonline.isr.umich.edu}
+#' @examples
+#' dplyr::glimpse(laborpanelprec)
+#' head(laborpanelprec)
 "laborpanelprec"

@@ -72,6 +72,10 @@ Cameron and Trivedi (2005).
 20.3 Count Example: Contacts with Medical Doctor, p.671
 }
 
+\examples{
+dplyr::glimpse(randhealth)
+head(randhealth)
+}
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
 Applications," Cambridge University Press, New York.
