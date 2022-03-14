@@ -38,4 +38,11 @@ Cameron and Trivedi (2005)
 dplyr::glimpse(vietnamlss)
 head(vietnamlss)
 }
+\references{
+Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
+Applications," Cambridge University Press, New York.
+
+World Bank Living Standards Survey 1997-1998 Vietnam.
+\url{https://microdata.worldbank.org/index.php/catalog/2694}
+}
 \keyword{datasets}

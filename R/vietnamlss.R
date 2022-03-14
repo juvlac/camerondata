@@ -22,6 +22,12 @@
 #' @section Section in Text:
 #' 4.6.4 Quantile Regression Example, pp. 88-90
 #' @source \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
+#' @references
+#' Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
+#' Applications," Cambridge University Press, New York.
+#'
+#' World Bank Living Standards Survey 1997-1998 Vietnam.
+#' \url{https://microdata.worldbank.org/index.php/catalog/2694}
 #' @examples
 #' dplyr::glimpse(vietnamlss)
 #' head(vietnamlss)
