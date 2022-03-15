@@ -6,7 +6,11 @@ Authors@R:
            family = "Vega-Lacorte",
            role = c("aut", "cre"),
            email = "jv@jv-lacorte.de")
-Description: What the package does (one paragraph).
+Description: Quick and easy access to datasets that let you replicate the
+    empirical examples in Cameron and Trivedi (2005) "Microeconometrics: Methods and
+    Applications" (ISBN: 9780521848053).The data are available as soon as you install
+    and load the package (lazy-loading) as tibbles/data frames. The documentation includes
+    reference to chapter sections and page numbers where the datasets are used. 
 License: CC BY 4.0
 Depends: 
     R (>= 3.5.0)
