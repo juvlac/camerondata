@@ -7,14 +7,14 @@
 \format{
 A data frame with 5320 observations and 8 variables:
 \describe{
-\item{\strong{lnhr}}{log of annual hours worked}
-\item{\strong{lnwg}}{log of of hourly wage}
-\item{\strong{kids}}{number of children}
-\item{\strong{ageh}}{age}
-\item{\strong{agesq}}{quadratic age}
-\item{\strong{disab}}{= 1 if bad health}
-\item{\strong{id}}{identification code}
-\item{\strong{year}}{interview year}
+\item{lnhr}{log of annual hours worked}
+\item{lnwg}{log of of hourly wage}
+\item{kids}{number of children}
+\item{ageh}{age}
+\item{agesq}{quadratic age}
+\item{disab}{= 1 if bad health}
+\item{id}{identification code}
+\item{year}{interview year}
 ...
 }
 }

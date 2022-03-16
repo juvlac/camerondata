@@ -7,15 +7,15 @@
 \format{
 A data frame with 5999 observations and 9 variables:
 \describe{
-\item{\strong{sex}}{gender of household head, 1 = male; 2 = female}
-\item{\strong{age}}{age of household head}
-\item{\strong{educyr98}}{schooling year of household head}
-\item{\strong{farm}}{type of household, = 1 if farm }
-\item{\strong{urban98}}{= 1 if urban area, = 0 if rural area}
-\item{\strong{hhsize}}{household size}
-\item{\strong{lhhexp1}}{household total expenditure, ln}
-\item{\strong{lhhex12m}}{household medical expenditure, ln}
-\item{\strong{lnrlfood}}{household food expenditure, ln}
+\item{sex}{gender of household head, 1 = male; 2 = female}
+\item{age}{age of household head}
+\item{educyr98}{schooling year of household head}
+\item{farm}{type of household, = 1 if farm }
+\item{urban98}{= 1 if urban area, = 0 if rural area}
+\item{hhsize}{household size}
+\item{lhhexp1}{household total expenditure, ln}
+\item{lhhex12m}{household medical expenditure, ln}
+\item{lnrlfood}{household food expenditure, ln}
 }
 }
 \source{

@@ -7,9 +7,9 @@
 \format{
 A data frame with 566 observations and 2 variables:
 \describe{
-\item{\strong{dur}}{duration of the strike, number of days from the
+\item{dur}{duration of the strike, number of days from the
 start of the strike.}
-\item{\strong{gdp}}{measure of business cycle stage, deviation of
+\item{gdp}{measure of business cycle stage, deviation of
 monthly log industrial production in manufacturing.}
 }
 }

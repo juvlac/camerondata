@@ -8,14 +8,14 @@
 #'
 #' @format A data frame with 5999 observations and 8 variables:
 #' \describe{
-#'   \item{\strong{sex}}{= 1 if head of household is female}
-#'   \item{\strong{age}}{age of head of household}
-#'   \item{\strong{educ}}{Highest education obtained by head of household}
-#'   \item{\strong{farm}}{= 1 for agricultural household}
-#'   \item{\strong{hhsize}}{household size}
-#'   \item{\strong{commune}}{commune code}
-#'   \item{\strong{lnhhexp}}{total household expenditure, ln}
-#'   \item{\strong{lnexp12m}}{household healthcare expenditure in the past
+#'   \item{sex}{= 1 if head of household is female}
+#'   \item{age}{age of head of household}
+#'   \item{educ}{Highest education obtained by head of household}
+#'   \item{farm}{= 1 for agricultural household}
+#'   \item{hhsize}{household size}
+#'   \item{commune}{commune code}
+#'   \item{lnhhexp}{total household expenditure, ln}
+#'   \item{lnexp12m}{household healthcare expenditure in the past
 #'   12 months, ln}
 #' }
 #' @section Section in Text:

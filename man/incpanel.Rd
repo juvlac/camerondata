@@ -7,15 +7,15 @@
 \format{
 A data frame with 4856 observations and 9 variables:
 \describe{
-\item{\strong{intnum}}{interview number 1968}
-\item{\strong{persnum}}{person number}
-\item{\strong{age}}{age of individual in 1993}
-\item{\strong{educatn}}{highest grade/year of school completed 1993}
-\item{\strong{earnings}}{total labor income of individual received in 1992, dollars}
-\item{\strong{hours}}{total annual work hours in 1992}
-\item{\strong{sex}}{sex of individual,= 2 if female}
-\item{\strong{kids}}{total number of children born to this individual}
-\item{\strong{married}}{last known marital status: 1 = married,
+\item{intnum}{interview number 1968}
+\item{persnum}{person number}
+\item{age}{age of individual in 1993}
+\item{educatn}{highest grade/year of school completed 1993}
+\item{earnings}{total labor income of individual received in 1992, dollars}
+\item{hours}{total annual work hours in 1992}
+\item{sex}{sex of individual,= 2 if female}
+\item{kids}{total number of children born to this individual}
+\item{married}{last known marital status: 1 = married,
 2 = never married, 3 = widowed, 4 = divorced, 5 = separated,
 8 = NA, 9 = no histories 85-93 }
 }

@@ -15,24 +15,24 @@
 #'
 #' @format A data frame with 2675 observations and 18 variables:
 #' \describe{
-#'   \item{\strong{treat}}{= 1 if individual is in treatment group, = 0 if in control group}
-#'   \item{\strong{age}}{age in years}
-#'   \item{\strong{educ}}{education in years}
-#'   \item{\strong{black}}{= 1 if black}
-#'   \item{\strong{hisp}}{= 1 if hispanic}
-#'   \item{\strong{marr}}{= 1 if married}
-#'   \item{\strong{re74}}{real annual earnings in 1974 (pre-treatment), in 1982 usd}
-#'   \item{\strong{re75}}{real annual earnings in 1975 (pre-treatment), in 1982 usd}
-#'   \item{\strong{re78}}{real annual earnings in 1978 (post-treatment), in 1982 usd}
-#'   \item{\strong{u74}}{= 1 if unemployed in 1974}
-#'   \item{\strong{u75}}{= 1 if unemployed in 1975}
-#'   \item{\strong{agesq}}{age squared}
-#'   \item{\strong{educsq}}{educ squared}
-#'   \item{\strong{nodegree}}{= 1 if years of education < 12}
-#'   \item{\strong{re74sq}}{re74 squared}
-#'   \item{\strong{re75sq}}{re75 squared}
-#'   \item{\strong{u74black}}{interaction term u74 x black}
-#'   \item{\strong{u74hisp}}{interaction term u74 x hisp}
+#'   \item{treat}{= 1 if individual is in treatment group, = 0 if in control group}
+#'   \item{age}{age in years}
+#'   \item{educ}{education in years}
+#'   \item{black}{= 1 if black}
+#'   \item{hisp}{= 1 if hispanic}
+#'   \item{marr}{= 1 if married}
+#'   \item{re74}{real annual earnings in 1974 (pre-treatment), in 1982 usd}
+#'   \item{re75}{real annual earnings in 1975 (pre-treatment), in 1982 usd}
+#'   \item{re78}{real annual earnings in 1978 (post-treatment), in 1982 usd}
+#'   \item{u74}{= 1 if unemployed in 1974}
+#'   \item{u75}{= 1 if unemployed in 1975}
+#'   \item{agesq}{age squared}
+#'   \item{educsq}{educ squared}
+#'   \item{nodegree}{= 1 if years of education < 12}
+#'   \item{re74sq}{re74 squared}
+#'   \item{re75sq}{re75 squared}
+#'   \item{u74black}{interaction term u74 x black}
+#'   \item{u74hisp}{interaction term u74 x hisp}
 #' }
 #' @section Section in Text:
 #' 25.8 Treatment Evaluation Example: The Effect of Training on Earnings, pp. 889-95

@@ -7,16 +7,16 @@
 \format{
 A data frame with 346 observations and 25 variables:
 \describe{
-\item{\strong{cusip}}{Compustat's identifying number for the firm
+\item{cusip}{Compustat's identifying number for the firm
 (Committee on Uniform Security Identification Procedures number).}
-\item{\strong{ardssic}}{A two-digit code for the applied R&D
+\item{ardssic}{A two-digit code for the applied R&D
 industrial classification.}
-\item{\strong{scisect}}{= 1 if firm is in the scientific sector.}
-\item{\strong{logk}}{log of the book value of capital in 1972.}
-\item{\strong{sumpat}}{sum of patents applied for between 1972-1979.}
-\item{\strong{logr70 - logr79}}{logarithm of R&D spending during the year
+\item{scisect}{= 1 if firm is in the scientific sector.}
+\item{logk}{log of the book value of capital in 1972.}
+\item{sumpat}{sum of patents applied for between 1972-1979.}
+\item{logr70 - logr79}{logarithm of R&D spending during the year
 (in 1972 dollars).}
-\item{\strong{pat70 - pat79}}{number of patents applied
+\item{pat70 - pat79}{number of patents applied
 for during the year that were eventually granted.}
 }
 }

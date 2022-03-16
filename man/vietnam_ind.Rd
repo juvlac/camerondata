@@ -7,18 +7,18 @@
 \format{
 A data frame with 27766 observations and 12 variables:
 \describe{
-\item{\strong{educ}}{Completed diploma level}
-\item{\strong{sex}}{= 1 if respondent is male}
-\item{\strong{age}}{age in years}
-\item{\strong{married}}{= 1 for married person}
-\item{\strong{illness}}{number of illnesses experienced in past 12 months}
-\item{\strong{injury}}{= 1 if injured during survey period}
-\item{\strong{illdays}}{number of illness days}
-\item{\strong{actdays}}{number od days of limited activity}
-\item{\strong{pharvis}}{number of direct pharmacy visits}
-\item{\strong{insurance}}{= 1 if respondent has health insurance coverage}
-\item{\strong{lnhhexp}}{total household expenditure, ln}
-\item{\strong{commune}}{commune code}
+\item{educ}{Completed diploma level}
+\item{sex}{= 1 if respondent is male}
+\item{age}{age in years}
+\item{married}{= 1 for married person}
+\item{illness}{number of illnesses experienced in past 12 months}
+\item{injury}{= 1 if injured during survey period}
+\item{illdays}{number of illness days}
+\item{actdays}{number od days of limited activity}
+\item{pharvis}{number of direct pharmacy visits}
+\item{insurance}{= 1 if respondent has health insurance coverage}
+\item{lnhhexp}{total household expenditure, ln}
+\item{commune}{commune code}
 }
 }
 \source{
