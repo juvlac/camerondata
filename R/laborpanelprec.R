@@ -5,7 +5,7 @@
 #' JBES website with two decimal places (Cameron and Trivedi, 2005).
 #'
 #'
-#' @usage data(laborpanelprec)
+#' @usage laborpanelprec
 #'
 #' @format A data frame with 5320 observations and 8 variables:
 #' \describe{

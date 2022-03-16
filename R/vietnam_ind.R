@@ -4,7 +4,7 @@
 #' at the individual level. Sample extract by Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(vietnam_ind)
+#' @usage vietnam_ind
 #'
 #' @format A data frame with 27766 observations and 12 variables:
 #' \describe{

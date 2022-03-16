@@ -5,7 +5,7 @@
 #'
 #'
 #'
-#' @usage data(laborpanel)
+#' @usage laborpanel
 #'
 #' @format A data frame with 5320 observations and 8 variables:
 #' \describe{

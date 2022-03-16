@@ -22,7 +22,7 @@ A data frame with 5999 observations and 9 variables:
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(vietnamlss)
+vietnamlss
 }
 \description{
 Data from the World Bank's 1997 Vietnam Living Standards Survey 1997-98

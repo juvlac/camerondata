@@ -57,7 +57,7 @@ weekly earnings in the lost job,}
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(jobless)
+jobless
 }
 \description{
 Data from the January Current Population Survey's Displaced

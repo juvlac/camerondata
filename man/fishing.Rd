@@ -31,7 +31,7 @@ sum of per-hour catch rates of targeted species.}
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(fishing)
+fishing
 }
 \description{
 Data sample of 1,182 people from a survey conducted by Thomson and

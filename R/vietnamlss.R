@@ -5,7 +5,7 @@
 #' Cameron and Trivedi (2005)
 #'
 #'
-#' @usage data(vietnamlss)
+#' @usage vietnamlss
 #'
 #' @format A data frame with 5999 observations and 9 variables:
 #' \describe{

@@ -4,7 +4,7 @@
 #' at the household level. Sample extract by Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(vietnam_hh)
+#' @usage vietnam_hh
 #'
 #' @format A data frame with 5999 observations and 8 variables:
 #' \describe{

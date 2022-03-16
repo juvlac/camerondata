@@ -6,7 +6,7 @@
 #' Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(randhealth)
+#' @usage randhealth
 #'
 #' @format A data frame with 20,190 observations and 45 variables:
 #' \describe{

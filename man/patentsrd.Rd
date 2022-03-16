@@ -40,7 +40,7 @@ industrial classification.}
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(patentsrd)
+patentsrd
 }
 \description{
 Panel data on patents and R&D expenditures. The sample includes

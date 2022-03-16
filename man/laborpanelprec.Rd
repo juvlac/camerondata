@@ -22,7 +22,7 @@ A data frame with 5320 observations and 8 variables:
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(laborpanelprec)
+laborpanelprec
 }
 \description{
 Data on 532 males over 10 years (1979-1988) from Ziliak (1997),

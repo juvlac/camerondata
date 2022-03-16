@@ -24,7 +24,7 @@ A data frame with 4856 observations and 9 variables:
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(incpanel)
+incpanel
 }
 \description{
 Data from the Michigan Panel Survey of Income Dynamics, Individual Level Final

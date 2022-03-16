@@ -11,7 +11,7 @@
 #'
 #'
 #'
-#' @usage data(nswproject)
+#' @usage nswproject
 #'
 #' @format A data frame with 2675 observations and 18 variables:
 #' \describe{

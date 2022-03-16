@@ -7,7 +7,7 @@
 #'
 #'
 #'
-#' @usage data(patentsrd)
+#' @usage patentsrd
 #'
 #' @format A data frame with 346 observations and 25 variables:
 #' \describe{

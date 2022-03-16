@@ -17,7 +17,7 @@ monthly log industrial production in manufacturing.}
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(strikes)
+strikes
 }
 \description{
 Data set on 566 contract strikes in U.S. manufacturing for

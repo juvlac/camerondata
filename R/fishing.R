@@ -6,7 +6,7 @@
 #'
 #'
 #'
-#' @usage data(fishing)
+#' @usage fishing
 #'
 #' @format A data frame with 1182 observations and 16 variables:
 #' \describe{

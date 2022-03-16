@@ -4,7 +4,7 @@
 #' Release 1993. Sample of 4856 women, extracted by Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(incpanel)
+#' @usage incpanel
 #'
 #' @format A data frame with 4856 observations and 9 variables:
 #' \describe{

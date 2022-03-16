@@ -8,7 +8,7 @@
 #'
 #'
 #'
-#' @usage data(strikes)
+#' @usage strikes
 #'
 #' @format A data frame with 566 observations and 2 variables:
 #' \describe{

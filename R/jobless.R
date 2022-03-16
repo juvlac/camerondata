@@ -8,7 +8,7 @@
 #' Cameron and Trivedi (2005).
 #'
 #'
-#' @usage data(jobless)
+#' @usage jobless
 #'
 #' @format A data frame with 3343 observations and 43 variables:
 #' \describe{

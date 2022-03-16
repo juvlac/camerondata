@@ -58,7 +58,7 @@ A data frame with 20,190 observations and 45 variables:
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(randhealth)
+randhealth
 }
 \description{
 Data from the RAND Health Insurance Experiment. The data comes

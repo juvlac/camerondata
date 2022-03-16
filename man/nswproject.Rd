@@ -31,7 +31,7 @@ A data frame with 2675 observations and 18 variables:
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(nswproject)
+nswproject
 }
 \description{
 Data from the National Supported Work (NSW) demonstration project
