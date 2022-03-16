@@ -14,10 +14,26 @@ industrial classification.}
 \item{scisect}{= 1 if firm is in the scientific sector.}
 \item{logk}{log of the book value of capital in 1972.}
 \item{sumpat}{sum of patents applied for between 1972-1979.}
-\item{logr70 - logr79}{logarithm of R&D spending during the year
-(in 1972 dollars).}
-\item{pat70 - pat79}{number of patents applied
-for during the year that were eventually granted.}
+\item{logr70}{log of R&D spending in 1970, in 1972 dollars.}
+\item{logr71}{log of R&D spending in 1971, in 1972 dollars.}
+\item{logr72}{log of R&D spending in 1972, in 1972 dollars.}
+\item{logr73}{log of R&D spending in 1973, in 1972 dollars.}
+\item{logr74}{log of R&D spending in 1974, in 1972 dollars.}
+\item{logr75}{log of R&D spending in 1975, in 1972 dollars.}
+\item{logr76}{log of R&D spending in 1976, in 1972 dollars.}
+\item{logr77}{log of R&D spending in 1977, in 1972 dollars.}
+\item{logr78}{log of R&D spending in 1978, in 1972 dollars.}
+\item{logr79}{log of R&D spending in 1979, in 1972 dollars.}
+\item{pat70}{number of patents applied in the year that were eventually granted (1970).}
+\item{pat71}{number of patents applied in the year that were eventually granted (1971).}
+\item{pat72}{number of patents applied in the year that were eventually granted (1972).}
+\item{pat73}{number of patents applied in the year that were eventually granted (1973).}
+\item{pat74}{number of patents applied in the year that were eventually granted (1974).}
+\item{pat75}{number of patents applied in the year that were eventually granted (1975).}
+\item{pat76}{number of patents applied in the year that were eventually granted (1976).}
+\item{pat77}{number of patents applied in the year that were eventually granted (1977).}
+\item{pat78}{number of patents applied in the year that were eventually granted (1978).}
+\item{pat79}{number of patents applied in the year that were eventually granted (1979).}
 }
 }
 \source{

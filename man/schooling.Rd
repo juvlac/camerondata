@@ -21,9 +21,12 @@ A data frame with 5226 observations and 101 variables:
 \item{bdate}{date of birth}
 \item{gfill76}{highest grade completed 1976, some values filled from prevs reports}
 \item{wt76}{sampling weights 1976}
-\item{grade76, grade66}{highest grade completed in 1976/1966}
-\item{age76, age66}{age, 1976/1966 survey}
-\item{smsa76, smsa66}{current residence, = 1 if lived in central city in 1976/1966}
+\item{grade76}{highest grade completed in 1976}
+\item{grade66}{highest grade completed in 1966}
+\item{age76}{age in 1976}
+\item{age66}{age in 1966}
+\item{smsa76}{current residence, = 1 if lived in central city in 1976}
+\item{smsa66}{current residence, = 1 if lived in central city in 1966}
 \item{region}{census region in 1966}
 \item{col4}{= 1 if there is a 4-year college nearby}
 \item{mcol4}{= 1 if male 4-year college nearby}
@@ -33,9 +36,15 @@ A data frame with 5226 observations and 101 variables:
 \item{exp76}{work experience in 1976, years calculated as (10 + age66) - grade76 - 6}
 \item{expsq76}{experience 1976 squared, exp76^2/100}
 \item{agesq76}{age squared (1976)}
-\item{reg1- reg9}{region, = 1 if lived in region:
-NE (reg1), MidAtl (reg2), ENC (reg3), WNC (reg4), SA (reg5), ESC (reg6),
-WSC (reg7), M (reg8), P (reg9) }
+\item{reg1}{region, = 1 if lived in region NE}
+\item{reg2}{region, = 1 if lived in region MidAtl}
+\item{reg3}{region, = 1 if lived in region ENC}
+\item{reg4}{region, = 1 if lived in region WNC}
+\item{reg5}{region, = 1 if lived in region SA}
+\item{reg6}{region, = 1 if lived in region ESC}
+\item{reg7}{region, = 1 if lived in region WSC}
+\item{reg8}{region, = 1 if lived in region M}
+\item{reg9}{region, = 1 if lived in region P}
 \item{momdad14}{= 1 if lived with both parents at age 14}
 \item{sinmom14}{= 1 if lived with mother only at age 14}
 \item{nodaded}{= 1 if father has no formal education}
@@ -64,27 +73,48 @@ WSC (reg7), M (reg8), P (reg9) }
 \item{cage2021}{= 1 if in age group 20-21 and lived near college}
 \item{cage2224}{= 1 if in age group 22-24 and lived near college}
 \item{cage66}{age in 1966 and lived near college}
-\item{a1 - a11}{= 1 if age in 1966 is: 14 (a1), 15 (a2),
-16 (a3), 17 (a4), 18 (a5), 19 (a6), 20 (a7), 21 (a8), 22 (a9),
-23 (a10), 24 (a11)}
+\item{a1}{= 1 if age in 1966 is 14}
+\item{a2}{= 1 if age in 1966 is 15}
+\item{a3}{= 1 if age in 1966 is 16}
+\item{a4}{= 1 if age in 1966 is 17}
+\item{a5}{= 1 if age in 1966 is 18}
+\item{a6}{= 1 if age in 1966 is 19}
+\item{a7}{= 1 if age in 1966 is 20}
+\item{a8}{= 1 if age in 1966 is 21}
+\item{a9}{= 1 if age in 1966 is 22}
+\item{a10}{= 1 if age in 1966 is 23}
+\item{a11}{= 1 if age in 1966 is 24}
 \item{ca1}{= 1 if did not live near college in 1966}
-\item{ca2 - ca12}{= 1 if lived near college and age in 1966 is:
-14 (ca2), 15 (ca3), 16 (ca4), 17 (ca5), 18 (ca6), 19 (ca7),
-20 (ca8), 21 (ca9), 22 (ca10), 23 (ca11), 24 (ca12)}
+\item{ca2}{= 1 if lived near college and age in 1966 = 14}
+\item{ca3}{= 1 if lived near college and age in 1966 = 15}
+\item{ca4}{= 1 if lived near college and age in 1966 = 16}
+\item{ca5}{= 1 if lived near college and age in 1966 = 17}
+\item{ca6}{= 1 if lived near college and age in 1966 = 18}
+\item{ca7}{= 1 if lived near college and age in 1966 = 19}
+\item{ca8}{= 1 if lived near college and age in 1966 = 20}
+\item{ca9}{= 1 if lived near college and age in 1966 = 21}
+\item{ca10}{= 1 if lived near college and age in 1966 = 22}
+\item{ca11}{= 1 if lived near college and age in 1966 = 23}
+\item{ca12}{= 1 if lived near college and age in 1966 = 24}
 \item{g25}{grade level when 25 years old}
 \item{g25i}{= 1 if =g25 and intrvwed in year used for determining g25}
 \item{intmo66}{interview month in 1966, used to identify cases incl by Card}
 \item{nlsflt}{flag to identify if the case was used by Card}
 \item{nsib}{number of siblings}
-\item{ns1 - ns7}{= 1 if number of siblings is: 0 (ns1), 2 (ns2),
-3 (ns3), 4 (ns4), 6 (ns5), 9 (ns6), 18 (ns7) }
+\item{ns1}{= 1 if the person has no siblings}
+\item{ns2}{= 1 if number of siblings is 2}
+\item{ns3}{= 1 if number of siblings is 3}
+\item{ns4}{= 1 if number of siblings is 4}
+\item{ns5}{= 1 if number of siblings is 6}
+\item{ns6}{= 1 if number of siblings is 9}
+\item{ns7}{= 1 if number of siblings is 18}
 }
 }
 \source{
 \url{http://cameron.econ.ucdavis.edu/mmabook/mmadata.html}
 }
 \usage{
-data(schooling)
+schooling
 }
 \description{
 Data from the National Longitudinal Survey of Young Men.
