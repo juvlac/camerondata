@@ -49,7 +49,6 @@ drawn from the PSID (Cameron and Trivedi, 2005).
 
 \examples{
 dplyr::glimpse(nswproject)
-head(nswproject)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

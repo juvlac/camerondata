@@ -51,5 +51,4 @@
 #' issue 2, p. 265-83.
 #' @examples
 #' dplyr::glimpse(patentsrd)
-#' head(patentsrd)
 "patentsrd"

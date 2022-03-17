@@ -32,5 +32,4 @@
 #' Journal of Applied Econometrics, 6, 169--180.
 #' @examples
 #' dplyr::glimpse(strikes)
-#' head(strikes)
 "strikes"

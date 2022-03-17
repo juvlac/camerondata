@@ -52,5 +52,4 @@
 #' Training Programs with Experimental Data," AER, 604-620.
 #' @examples
 #' dplyr::glimpse(nswproject)
-#' head(nswproject)
 "nswproject"

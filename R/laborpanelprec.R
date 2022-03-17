@@ -36,5 +36,4 @@
 #' \url{https://psidonline.isr.umich.edu}
 #' @examples
 #' dplyr::glimpse(laborpanelprec)
-#' head(laborpanelprec)
 "laborpanelprec"

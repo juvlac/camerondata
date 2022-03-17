@@ -54,7 +54,6 @@ Griliches, and Hausman (1986).
 
 \examples{
 dplyr::glimpse(patentsrd)
-head(patentsrd)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

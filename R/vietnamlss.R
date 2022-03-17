@@ -30,5 +30,4 @@
 #' \url{https://microdata.worldbank.org/index.php/catalog/2694}
 #' @examples
 #' dplyr::glimpse(vietnamlss)
-#' head(vietnamlss)
 "vietnamlss"

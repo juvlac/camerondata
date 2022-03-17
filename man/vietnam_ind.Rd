@@ -38,7 +38,6 @@ Section
 
 \examples{
 dplyr::glimpse(vietnam_ind)
-head(vietnam_ind)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

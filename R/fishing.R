@@ -46,5 +46,4 @@
 #' National Marine Fisheries Service, Southwest Fisheries Science Center.
 #' @examples
 #' dplyr::glimpse(fishing)
-#' head(fishing)
 "fishing"

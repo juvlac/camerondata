@@ -33,7 +33,6 @@ Cameron and Trivedi (2005).
 
 \examples{
 dplyr::glimpse(strikes)
-head(strikes)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

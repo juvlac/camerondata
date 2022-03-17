@@ -32,6 +32,5 @@
 #' \url{https://psidonline.isr.umich.edu/}
 #' @examples
 #' dplyr::glimpse(incpanel)
-#' head(incpanel)
 "incpanel"
 

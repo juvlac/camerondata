@@ -35,7 +35,6 @@ at the household level. Sample extract by Cameron and Trivedi (2005).
 
 \examples{
 dplyr::glimpse(vietnam_hh)
-head(vietnam_hh)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

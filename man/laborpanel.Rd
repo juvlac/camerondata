@@ -35,7 +35,6 @@ collected from the Panel Study of Income Dynamics.
 
 \examples{
 dplyr::glimpse(laborpanel)
-head(laborpanel)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

@@ -74,5 +74,4 @@
 #' https://www.rand.org/health-care/projects/hie.html
 #' @examples
 #' dplyr::glimpse(randhealth)
-#' head(randhealth)
 "randhealth"
