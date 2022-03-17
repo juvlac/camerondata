@@ -34,10 +34,15 @@ devtools::install_github("juvlac/camerondata")
 ## Example
 
 
-
-```{r example}
-library(camerondata)
+```{r, include = FALSE}
 library(dplyr)
+```
+
+
+```{r }
+# Load camerondata package
+library(camerondata)
+
 
 # Subsample: only two modes of fishing
 subsample <- fishing %>% 

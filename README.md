@@ -25,16 +25,9 @@ devtools::install_github("juvlac/camerondata")
 ## Example
 
 ``` r
+# Load camerondata package
 library(camerondata)
-library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
+
 
 # Subsample: only two modes of fishing
 subsample <- fishing %>% 
