@@ -25,14 +25,29 @@ devtools::install_github("juvlac/camerondata")
 ## Example
 
 ``` r
-# Load camerondata package
+# Load package
 library(camerondata)
-
 
 # Subsample: only two modes of fishing
 subsample <- fishing %>% 
   filter(mode == 2 | mode == 4) %>% 
   select(mode, dcharter, pcharter, ppier)
+
+subsample
+#> # A tibble: 630 x 4
+#>     mode dcharter pcharter ppier
+#>    <int>    <int>    <dbl> <dbl>
+#>  1     4        1    183.  158. 
+#>  2     4        1     34.5  15.1
+#>  3     2        0     84.9  15.1
+#>  4     4        1     63.9 192. 
+#>  5     4        1     56.7  15.1
+#>  6     2        0     48.3  34.9
+#>  7     2        0     28.1  17.9
+#>  8     2        0     84.9  15.1
+#>  9     2        0    153.   33.5
+#> 10     2        0     31.7  33.5
+#> # ... with 620 more rows
 ```
 
 ``` r

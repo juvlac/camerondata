@@ -40,14 +40,15 @@ library(dplyr)
 
 
 ```{r }
-# Load camerondata package
+# Load package
 library(camerondata)
-
 
 # Subsample: only two modes of fishing
 subsample <- fishing %>% 
   filter(mode == 2 | mode == 4) %>% 
   select(mode, dcharter, pcharter, ppier)
+
+subsample
 
 ```
 
@@ -61,6 +62,7 @@ subsample %>%
             meanPricePier = mean(ppier),
             n = n()) 
 ```
+
 
 
 ```{r }
