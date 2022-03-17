@@ -7,8 +7,7 @@
 \format{
 A data frame with 1182 observations and 16 variables:
 \describe{
-\item{mode}{fishing mode choice, = 1 beach,
-= 2 pier, = 3 private boat, = 4 charter}
+\item{mode}{fishing mode choice, = 1 beach, = 2 pier, = 3 private boat, = 4 charter boat}
 \item{price}{price for chosen alternative, usd}
 \item{crate}{catch rate for chosen alternative,
 sum of per-hour catch rates of targeted species.}
@@ -46,7 +45,7 @@ Cameron and Trivedi (2005).
 }
 
 \examples{
-dplyr::glimpse(fishing)
+summary(fishing)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and
