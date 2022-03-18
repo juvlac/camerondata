@@ -8,9 +8,9 @@
 <!-- badges: end -->
 
 The goal of camerondata is to provide graduate students and applied
-researchers with a quick and easy access to data sets that let them
-replicate the empirical examples found in Cameron and Trivedi’s
-Microeconometrics Methods and Applications.
+researchers with a quick and easy access to the data sets from the
+empirical examples found in Cameron and Trivedi’s Microeconometrics
+Methods and Applications.
 
 ## How to install
 
@@ -23,6 +23,17 @@ devtools::install_github("juvlac/camerondata")
 ```
 
 ## Example
+
+Let’s do the data summary from Section 14.2 *Binary Outcome Example:
+Fishing Mode Choice*. You’ll need the `fishing` data set.
+
+The choice is between two alternatives: fishing from a charter boat or
+fishing from a pier. The relative price of charter fishing to fishing
+from the pier is used as explanatory variable.
+
+The sample has data on four fishing mode alternatives and different
+possible explanatory variables. So we start by taking the subset of the
+data that we need for this example.
 
 ``` r
 # Load package
@@ -50,6 +61,10 @@ subsample
 #> # ... with 620 more rows
 ```
 
+Table 14.1 in the book (page 464) shows the data summary for this
+subsample of 630 individuals. Overall average prices for the charter
+boat and the pier are 85 and 95 usd.
+
 ``` r
 
 # Overall Data Summary
@@ -62,6 +77,11 @@ subsample %>%
 #>              <dbl>         <dbl> <int>
 #> 1             84.9          95.2   630
 ```
+
+Averages prices are also calculated by grouping those who choose to fish
+from the charter boat and those fishing from the pier. We can see that
+price matters in the way we would expect. People selected the
+alternative that was on average less expensive for them.
 
 ``` r
 
@@ -77,6 +97,10 @@ subsample %>%
 #> 1        0            110.           30.6   178
 #> 2        1             75.1         121.    452
 ```
+
+Finally, we can calculate the sample probabilities of each choice. These
+are simply how frequently each choice appears in our sample. You can see
+that 71.7% of the sample chose charter boat fishing.
 
 ``` r
 # Relative frequency in subsample
