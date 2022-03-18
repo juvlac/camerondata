@@ -61,9 +61,9 @@ subsample
 #> # ... with 620 more rows
 ```
 
-Table 14.1 in the book (page 464) shows the data summary for this
-subsample of 630 individuals. Overall average prices for the charter
-boat and the pier are 85 and 95 usd.
+Table 14.1 in the book (page 464) shows the data summary for the sample
+of 630 individuals. Overall average prices for the charter boat and the
+pier are 85 and 95 usd.
 
 ``` r
 
