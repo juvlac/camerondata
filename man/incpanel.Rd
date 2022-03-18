@@ -37,7 +37,7 @@ Release 1993. Sample of 4856 women, extracted by Cameron and Trivedi (2005).
 }
 
 \examples{
-dplyr::glimpse(incpanel)
+summary(incpanel)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

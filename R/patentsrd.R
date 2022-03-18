@@ -50,5 +50,5 @@
 #' Is There a Lag?," International Economic Review, 27,
 #' issue 2, p. 265-83.
 #' @examples
-#' dplyr::glimpse(patentsrd)
+#' summary(patentsrd)
 "patentsrd"

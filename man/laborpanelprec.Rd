@@ -35,7 +35,7 @@ JBES website with two decimal places (Cameron and Trivedi, 2005).
 }
 
 \examples{
-dplyr::glimpse(laborpanelprec)
+summary(laborpanelprec)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

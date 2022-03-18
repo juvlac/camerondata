@@ -73,7 +73,7 @@ Cameron and Trivedi (2005).
 }
 
 \examples{
-dplyr::glimpse(randhealth)
+summary(randhealth)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

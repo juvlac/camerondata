@@ -31,5 +31,5 @@
 #' Gamma Model of Duration: With an Application to Kennan's Strike Data,"
 #' Journal of Applied Econometrics, 6, 169--180.
 #' @examples
-#' dplyr::glimpse(strikes)
+#' summary(strikes)
 "strikes"

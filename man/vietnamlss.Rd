@@ -35,7 +35,7 @@ Cameron and Trivedi (2005)
 }
 
 \examples{
-dplyr::glimpse(vietnamlss)
+summary(vietnamlss)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

@@ -35,5 +35,5 @@
 #' Panel Study of Income Dynamics (PSID),
 #' \url{https://psidonline.isr.umich.edu}
 #' @examples
-#' dplyr::glimpse(laborpanel)
+#' summary(laborpanel)
 "laborpanel"

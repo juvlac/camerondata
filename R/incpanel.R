@@ -31,6 +31,6 @@
 #' Michigan Panel Study of Income Dynamics (PSID),
 #' \url{https://psidonline.isr.umich.edu/}
 #' @examples
-#' dplyr::glimpse(incpanel)
+#' summary(incpanel)
 "incpanel"
 

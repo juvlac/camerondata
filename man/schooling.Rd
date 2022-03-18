@@ -128,7 +128,7 @@ Cameron and Trivedi (2005)
 }
 
 \examples{
-dplyr::glimpse(schooling)
+summary(schooling)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

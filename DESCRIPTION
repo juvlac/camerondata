@@ -14,8 +14,6 @@ Description: Quick and easy access to datasets that let you replicate the
 License: CC BY 4.0
 Depends: 
     R (>= 3.5.0)
-Suggests:
-    dplyr
 URL: https://github.com/juvlac/camerondata
 BugReports: https://github.com/juvlac/camerondata/issues
 Encoding: UTF-8

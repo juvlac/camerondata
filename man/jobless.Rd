@@ -73,7 +73,7 @@ Cameron and Trivedi (2005).
 }
 
 \examples{
-dplyr::glimpse(jobless)
+summary(jobless)
 }
 \references{
 Cameron, A. and Trivedi, P. (2005), "Microeconometrics: Methods and

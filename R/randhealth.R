@@ -73,5 +73,5 @@
 #' RAND Corporation. "RAND's Health Insurance Experiment ."
 #' https://www.rand.org/health-care/projects/hie.html
 #' @examples
-#' dplyr::glimpse(randhealth)
+#' summary(randhealth)
 "randhealth"
