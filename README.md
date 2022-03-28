@@ -14,7 +14,13 @@ Methods and Applications.
 
 ## How to install
 
-You can install the development version of camerondata from
+You can install camerondata from CRAN with:
+
+``` r
+  install.packages("camerondata")
+```
+
+Or you can install the development version from
 [GitHub](https://github.com/) with:
 
 ``` r

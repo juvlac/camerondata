@@ -23,7 +23,14 @@ researchers with a quick and easy access to the data sets from the empirical exa
 
 ## How to install
 
-You can install the development version of camerondata from [GitHub](https://github.com/) with:
+You can install camerondata from CRAN with:
+
+``` r
+  install.packages("camerondata")
+
+```
+
+Or you can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
